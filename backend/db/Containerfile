@@ -1,0 +1,2 @@
+FROM docker.io/bitnami/bitnami/postgresql:17.5.0
+COPY ./sql/*.sql /docker-entrypoint-initdb.d/
